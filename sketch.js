@@ -45,12 +45,10 @@ function setup() {
 	});
 
 
+	//Add a rope between every bob and the roof, using the rope class. Refer project document
 	rope1=new rope(bobObject1.body,roofObject.body,-bobDiameter*2, 0)
 
-	rope2=new rope(bobObject2.body,roofObject.body,-bobDiameter*1, 0)
-	rope3=new rope(bobObject3.body,roofObject.body,0, 0)
-	rope4=new rope(bobObject4.body,roofObject.body,bobDiameter*1, 0)
-	rope5=new rope(bobObject5.body,roofObject.body,bobDiameter*2, 0)
+	
 
 	/*constraint1={
 		bodyA:bobObject1.body,

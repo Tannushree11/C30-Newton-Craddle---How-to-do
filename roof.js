@@ -3,7 +3,7 @@ class roof
 	constructor(x,y,w,h)
 	{
 		var options={
-			isStatic:true			
+			//Write the isStatic option here			
 			}
 		this.x=x;
 		this.y=y;
